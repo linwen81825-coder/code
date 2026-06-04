@@ -18,3 +18,4 @@ save/
 .vscode/
 .idea/
 .DS_Store
+configs/configs/*.yaml
