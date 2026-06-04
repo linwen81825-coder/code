@@ -1,4 +1,4 @@
-name: fl_moe
+name: bayes
 channels:
   - pytorch
   - nvidia

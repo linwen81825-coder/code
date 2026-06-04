@@ -13,7 +13,7 @@ utils/*
 !utils/config.py
 !utils/seed.py
 !utils/eval.py
-outputs/
+save/
 *.xlsx
 .vscode/
 .idea/

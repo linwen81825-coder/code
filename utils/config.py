@@ -2,6 +2,8 @@ import os
 
 import yaml
 
+from configs import apply_config_defaults
+
 
 def load_config(path):
     if not os.path.exists(path):
@@ -11,5 +13,5 @@ def load_config(path):
         cfg = yaml.safe_load(f)
 
     if cfg is None:
-        return {}
-    return cfg
+        cfg = {}
+    return apply_config_defaults(cfg)
